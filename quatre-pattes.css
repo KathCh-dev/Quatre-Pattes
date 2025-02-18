@@ -9,7 +9,6 @@ body{
 
 /* HAUT DE PAGE */
 nav{
-    /* code à réutiliser  pour la nav accueil*/
     width: 100%;
     background-color: #057858;
     color: white;
@@ -18,12 +17,10 @@ nav{
 }
 
 #logo-quatre-pattes{
-     /* code à réutiliser  pour la nav accueil*/
     margin-right: 20%;
 }
 
 #donationButton{
-     /* code à réutiliser  pour la nav accueil*/
     height: 40px;
     width: 150px;
     background-color: #DB2727;
@@ -36,6 +33,22 @@ a{
    text-decoration: none; 
    color: white;
    font-weight: bold;
+}
+
+/* MAIN DE LA PAGE D'ACCUEIL */
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), 
+    url("images/Image_haut_de_page.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-size: xx-large;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
 }
 
 /* MAIN PAGE DE CONTACT FORMULAIRE */
