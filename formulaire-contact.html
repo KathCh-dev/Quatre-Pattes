@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="quatre-pattes.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <script src="formulaire-contact.js"></script>
+        <script src="formulaire-contact.js" defer></script>
         <title>Formulaire de contact Quatre Pattes</title>
     </head>
 
@@ -19,7 +19,7 @@
                 <div class="recherche">
                     <a href="accueil.html" style="margin: 10px;">Accueil</a>
                     <a href="formulaire-contact.html" style="margin: 10px;">Contact</a>
-                    <button type="button" id="donationButton" style="margin: 10px;"><img src="images/logo-coeur.PNG" alt="" style="height: 15px; width: 15px;"> Faire un don</button>
+                    <button type="button" id="donationButton" style="margin: 10px;"><img src="images/logo-coeur.PNG" alt="Logo de coeur sur le bouton de don." style="height: 15px; width: 15px;"> Faire un don</button>
                 </div>
             </nav>
         </header>
@@ -32,12 +32,17 @@
                 <label for="userName">Nom</label><br>
                 <input type="text" id="userName"><br>
 
+                <br><div id="error-username" class="error"></div><br>
+
                 <br><label for="userMail">Email</label><br>
                 <input type="email" id="userMail"><br>
+
+                <br><div id="error-usermail" class="error"></div><br>
 
                 <br><label for="userSubject">Sujet</label><br>
                 <select name="userSubject" id="userSubject">
 
+                    <option value="defaultOption">Veuillez choisir un sujet</option>
                     <option value="partenariat" id="partenariat">Partenariat</option>
                     <option value="question-dons" id="question-dons">Question sur les dons</option>
                     <option value="famille-accueil" id="famille-accueil">Devenir famille d'accueil</option>
@@ -45,11 +50,15 @@
 
                 </select><br>
 
+                <br><div id="error-usersubject" class="error"></div><br>
+
                 <br><label for="userMessage">Message</label><br>
                 <textarea type="text" id="userMessage" style="width: 100%; height: 150px;"></textarea><br>
 
+                <br><div id="error-usermessage" class="error"></div><br>
+
                 
-                <br><button type="submit" id="send"><img src="images/logo-send.png" alt="" style="height: 15px; width: 15px;"> Envoyer</button>
+                <br><button type="submit" id="send"><img src="images/logo-send.png" alt="Logo d'envoi de message sur le bouton envoyer." style="height: 15px; width: 15px;"> Envoyer</button>
             </form>
         </main>
 
@@ -68,7 +77,7 @@
                     Contact
                 </h3><br>
 
-                    <img src="images/logo-mail.png" style="width: 15px; height: 15px;" alt=""> contact@quatrepattes.org<br>
+                    <img src="images/logo-mail.png" style="width: 15px; height: 15px;" alt="Logo enveloppe à côté de l'adresse mail de contact."> contact@quatrepattes.org<br>
             </div>
 
             <div id="social-media">

@@ -58,6 +58,31 @@ form{
     font-weight: bold;
 }
 
+input{
+    border: solid 1px #BDBDBD;
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+}
+
+select{
+    border: solid 1px #BDBDBD;
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+}
+
+textarea{
+    border: solid 1px #BDBDBD;
+    border-radius: 5px;
+}
+
+.error{
+    color: red;
+    font-size: small;
+    font-style: italic;
+}
+
 #send{
     background-color: #08956A;
     color: white;
