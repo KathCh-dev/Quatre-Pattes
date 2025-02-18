@@ -8,6 +8,7 @@ body{
 }
 
 nav{
+    /* code à réutiliser  pour la nav accueil*/
     width: 100%;
     background-color: #057858;
     color: white;
@@ -16,10 +17,12 @@ nav{
 }
 
 #logo-quatre-pattes{
+     /* code à réutiliser  pour la nav accueil*/
     margin-right: 20%;
 }
 
 #donationButton{
+     /* code à réutiliser  pour la nav accueil*/
     height: 40px;
     width: 150px;
     background-color: #DB2727;
