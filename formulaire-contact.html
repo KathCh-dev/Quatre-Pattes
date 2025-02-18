@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="quatre-pattes.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <script src="formulaire-contact.js"></script>
+        <title>Formulaire de contact Quatre Pattes</title>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div id="logo-quatre-pattes">
+                    <a href="accueil.html"><img src="images/logo-quatre-pattes.PNG" alt="Logo cliquable de l'association Quatre Pattes."></a>
+                </div>
+
+                <div class="recherche">
+                    <a href="accueil.html" style="margin: 10px;">Accueil</a>
+                    <a href="formulaire-contact.html" style="margin: 10px;">Contact</a>
+                    <button type="button" id="donationButton" style="margin: 10px;"><img src="images/logo-coeur.PNG" alt="" style="height: 15px; width: 15px;"> Faire un don</button>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            Contactez-nous
+            <form action="" id="assoForm">
+                <label for="userName">Nom</label><br>
+                <input type="text" id="userName"><br>
+
+                <br><label for="userMail">Email</label><br>
+                <input type="text" id="userMail"><br>
+
+                <br><label for="userSubject">Sujet</label><br>
+                <select name="userSubject" id="userSubject"></select><br>
+
+                <br><label for="userMessage">Message</label><br>
+                <input type="text" id="userMessage"><br>
+
+                <!-- insérer logo envoyer dans le bouton -->
+                <br><button type="submit" id="send">Envoyer</button>
+            </form>
+        </main>
+
+        <footer>
+            <div>
+                Quatre Pattes
+                <ul>
+                    <li>Ensemble, protégeons les animaux et donnos-leur une vie meilleure</li>
+                </ul>
+            </div>
+
+            <div>
+                Contact
+                <ul>
+                    <!-- insérer logo enveloppe dans contact -->
+                    <li>contact@quatrepattes.org</li>
+                </ul>
+            </div>
+
+            <div>
+                Suivez-nous
+            </div>
+        </footer>
+    </body>
+</html>
