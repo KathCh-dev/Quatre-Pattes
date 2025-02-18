@@ -7,6 +7,7 @@ body{
    
 }
 
+/* HAUT DE PAGE */
 nav{
     /* code à réutiliser  pour la nav accueil*/
     width: 100%;
@@ -36,3 +37,16 @@ a{
    color: white;
    font-weight: bold;
 }
+
+/* PIED DE PAGE */
+footer{
+    background-color: #202938;
+    color: white;
+    margin-top: 10%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
