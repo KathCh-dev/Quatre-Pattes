@@ -266,6 +266,56 @@ a{
     text-align: center;
 }
 
+/* Section 6: Témoignages */
+
+#testimonies-block{
+    margin: 3%;
+    padding: 1%;
+    display: flex;
+}
+
+.first-testimony-image{
+    background-image: url(images/Image_temoignage_Lyon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;   
+}
+
+.second-testimony-image{
+    background-image: url(images/Image_refuge_Marseille.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.third-testimony-image{
+    background-image: url(images/Image_temoignage_Paris.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.testimonies-box{
+    width: 30%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.testimonies-text{
+    padding: 3%;
+}
+
+
 /* MAIN PAGE DE CONTACT FORMULAIRE */
 h2{
     text-align: center;
