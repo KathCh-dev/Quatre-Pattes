@@ -7,12 +7,17 @@ body{
    
 }
 
+.button-icons{
+    height: 15px;
+    width: 15px;
+}
+
 .shadow-box{
     box-shadow:
-  4.5px 4.5px 29.5px rgba(0, 0, 0, 0.07),
-  12.5px 12.5px 37.6px rgba(0, 0, 0, 0.046),
-  30.1px 30.1px 47.3px rgba(0, 0, 0, 0.035),
-  100px 100px 80px rgba(0, 0, 0, 0.024);
+    4.5px 4.5px 29.5px rgba(0, 0, 0, 0.07),
+    12.5px 12.5px 37.6px rgba(0, 0, 0, 0.046),
+    30.1px 30.1px 47.3px rgba(0, 0, 0, 0.035),
+    100px 100px 80px rgba(0, 0, 0, 0.024);
 }
 
 /* HAUT DE PAGE */
@@ -113,6 +118,112 @@ a{
 #donation-validation-button:hover{
     border: solid 3px pink;
 }
+
+/* Section 3: l'encart de mission */
+
+/* Section 4: l'encart histoires de réussites */
+#success-stories{
+    height: 800px;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+
+    border: solid 3px red;
+}
+
+/* CSS pour l'image principale du carroussel */
+.main-picture{
+    width: 80%;
+    height: 500px;
+    background-image:linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,1)), 
+    url("images/Luna.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    color: white;
+    font-weight: medium;
+    align-content: flex-end;
+}
+
+.success-stories-text{
+    height: 45%;
+    padding: 1%;
+    margin: 2%;
+}
+
+#h2-success-stories{
+    text-align: left;
+}
+
+/* CSS pour les miniatures du carroussel */
+.carousel{
+    display: flex;
+}
+
+.image-carousel{
+    width: 300px;
+    height: 150px;
+    margin: 20px; 
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#img1{
+    background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), 
+    url(images/Luna.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#img1:hover{
+    background-image: url(images/Luna.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid 3px #12B97E;
+}
+
+#img2{
+    background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)),  
+    url(images/Oscar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#img2:hover{
+    background-image: url(images/Oscar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid 3px #12B97E;
+}
+
+#img3{
+    background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), 
+    url(images/Max.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#img3:hover{
+    background-image: url(images/Max.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid 3px #12B97E;
+}
+
+
 
 /* MAIN PAGE DE CONTACT FORMULAIRE */
 h2{
