@@ -128,8 +128,6 @@ a{
     text-align: left;
     display: flex;
     flex-direction: column;
-
-    border: solid 3px red;
 }
 
 /* CSS pour l'image principale du carroussel */
@@ -165,7 +163,7 @@ a{
 .image-carousel{
     width: 300px;
     height: 150px;
-    margin: 20px; 
+    margin: 10px; 
     text-align: center;
     border-radius: 20px;
     color: white;
@@ -223,7 +221,50 @@ a{
     border: solid 3px #12B97E;
 }
 
+/* Section 5 : Quizz et impact */
 
+/* CSS de la partie quizz */
+#quizz-et-impact{
+    padding: 1%;
+    height: 200vh;
+    background-color: #EDFDF6;
+}
+
+.quizz-frames{
+    margin: 3% 10%;
+    padding: 2%;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.answers-box{
+    display: flex;
+    justify-items: center;
+}
+
+.quizz-answers{
+    margin: 1%;
+    padding: 2%;
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    background-color: #F3F4F6;
+    font-weight: 500;
+}
+
+/* CSS de la partie Impact */
+
+.impact-frames{
+    margin: 2%;
+    display: flex;
+}
+
+.center-content{
+    width: 20%;
+    justify-items: center;
+    text-align: center;
+}
 
 /* MAIN PAGE DE CONTACT FORMULAIRE */
 h2{
