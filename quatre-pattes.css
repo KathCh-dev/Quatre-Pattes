@@ -120,6 +120,44 @@ a{
 }
 
 /* Section 3: l'encart de mission */
+#mission{
+    background-color: #EDFDF6;
+    height: 500px;
+    padding: 1%;
+}
+
+.mission-frame{
+    margin: 3%;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+}
+
+.mission-image{
+    background-image: url(images/Image_notre_mission.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 350px;
+    width: 100%;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.mission-text{
+    height: 300px;
+    width: 100%;
+    padding: 1%;
+}
+
+#titre-gauche{
+    text-align: left;
+}
+
+
+
+
 
 /* Section 4: l'encart histoires de réussites */
 #success-stories{
@@ -314,6 +352,8 @@ a{
 .testimonies-text{
     padding: 3%;
 }
+
+
 
 
 /* MAIN PAGE DE CONTACT FORMULAIRE */
