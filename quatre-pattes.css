@@ -264,7 +264,7 @@ a{
 /* CSS de la partie quizz */
 #quizz-et-impact{
     padding: 1%;
-    height: 200vh;
+    height: auto;
     background-color: #EDFDF6;
 }
 
@@ -480,7 +480,15 @@ footer{
         margin: 1%;
     }
 
+    /* Section 5: Quizz et impact */
+    .impact-frames{
+        flex-direction: column;
+    }
 
+    .center-content{
+        width: auto;
+        margin: 20px;
+    }
 
 
 
