@@ -126,7 +126,7 @@ a{
 /* Section 3: l'encart de mission */
 #mission{
     background-color: #EDFDF6;
-    height: 500px;
+    height: auto;
     padding: 1%;
 }
 
@@ -150,9 +150,9 @@ a{
 }
 
 .mission-text{
-    height: 300px;
-    width: 100%;
-    padding: 1%;
+    height: auto;
+    width: 95%;
+    padding: 3%;
 }
 
 #titre-gauche{
@@ -459,10 +459,19 @@ footer{
     }    
 
     /* Section 3: l'encart de mission*/
+    .mission-frame{
+        flex-direction: column;
+    }
+    .mission-image{
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
 
 
 
+/* 
 
+*/
 
 
     /* Footer */
