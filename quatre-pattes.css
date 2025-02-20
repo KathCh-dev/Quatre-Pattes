@@ -170,8 +170,8 @@ a{
 
 /* CSS pour l'image principale du carroussel */
 .main-picture{
-    width: 80%;
-    height: 500px;
+    width: 80vw;
+    height: 100vh;
     background-image:linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,1)), 
     url("images/Luna.png");
     background-size: cover;
@@ -467,11 +467,23 @@ footer{
         border-bottom-left-radius: 0px;
     }
 
+    /* Section 4: l'encart histoires de réussites */
+    .main-picture{
+        width: 90vw;
+        height: 70vh;
+        border-radius: 10px;
+        margin: 3%;
+    }
+    .image-carousel{
+        width: 30vw;
+        height: 25vh;
+        margin: 1%;
+    }
 
 
-/* 
 
-*/
+
+
 
 
     /* Footer */
