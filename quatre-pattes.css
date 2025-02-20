@@ -25,17 +25,25 @@ nav{
     width: 100%;
     background-color: #057858;
     color: white;
-    display: flex;
     gap: 20%; 
+    display: flex;
 }
 
 #logo-quatre-pattes{
-    margin-right: 20%;
+    margin-left: 1%;
+}
+
+.recherche{
+    margin-right: 1%;
+    margin-left: 3%;
+    width: 50%;
+    display: flex;
+    align-items: center;
 }
 
 #donationButton{
     height: 40px;
-    width: 150px;
+    width: 50%; 
     background-color: #DB2727;
     color: white;
     font-weight: bold;
@@ -417,6 +425,27 @@ footer{
 
 /* Responsive */
 @media (max-width: 550px){
+
+    /* Haut de page */
+    nav{
+        flex-direction: column;
+
+    }
+
+    .recherche{
+        margin-left: 1%;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .header-writings{
+        margin-left: 1%;
+        padding: 3%;
+    }
+
+    #donationButton{
+        width: 90%;
+    }
 
     /* Footer */
     footer{
