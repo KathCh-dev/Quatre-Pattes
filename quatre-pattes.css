@@ -155,10 +155,6 @@ a{
     text-align: left;
 }
 
-
-
-
-
 /* Section 4: l'encart histoires de réussites */
 #success-stories{
     height: 800px;
@@ -353,9 +349,6 @@ a{
     padding: 3%;
 }
 
-
-
-
 /* MAIN PAGE DE CONTACT FORMULAIRE */
 h2{
     text-align: center;
@@ -410,9 +403,29 @@ footer{
     color: white;
     margin-top: 10%;
     padding: 20px;
-    text-align: center;
+
     display: flex;
     justify-content: space-between;
 }
 
+.div-footer{
+    width: 20%;
+    height: 20%;
+    padding: 3%;
+    margin: 2%;
+}
+
+/* Responsive */
+@media (max-width: 550px){
+
+    /* Footer */
+    footer{
+        flex-direction: column;
+        text-align: left; 
+    }
+
+    .div-footer{
+        width: 100%;
+    }
+}
 
