@@ -490,9 +490,16 @@ footer{
         margin: 20px;
     }
 
+    /* Section 6: Témoignages */
+    #testimonies-block{
+        flex-direction: column;
+    }
 
-
-
+    .testimonies-box{
+        width: 90%;
+        height: 25%;
+        margin: 3%;
+    }
 
     /* Footer */
     footer{
